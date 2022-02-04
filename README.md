@@ -31,7 +31,7 @@ A JWT is comprised of 2 separate pieces of JSON and a signature hash, each of th
 <br><br>
 The final token will have a structure that looks like <code>xxxxx.yyyyy.zzzzz</code>
 <br><br>
-The three pieces of JSON are:<br>
+The three pieces are:<br>
 <ol>
 <li>Header (<code>xxxxx</code>)</li>
 <li>Payload (<code>yyyyy</code>)</li>
