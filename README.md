@@ -43,7 +43,7 @@ That is then Base64 encoded into a string (`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 
 ### Payload
 
-The payload usually contains information about an entity that is required for the app to function; for example, user identification data.
+The payload usually contains information about an entity that is required for the app to function; for example, user identification data. Do not store sensitive information, such as passwords, in tokens.
 ```json
 {
     "id": 13,
