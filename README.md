@@ -21,8 +21,8 @@ We can visualise the process like this:
 <details>
 <summary><strong>Okay, but what's a token?</strong> <em>(click to expand)</em></summary>
 <br>
-<pre style="white-space: pre-wrap;">Think of a token like an employee ID badge; you can't enter the secure areas of your employer's building without one! The company verify that you are who you say you are when they hire you, and then they give you an ID badge so you can access employee-only rooms in the building.</pre>
-
+<blockquote>Think of a token like an employee ID badge; you can't enter the secure areas of your employer's building without one! The company verify that you are who you say you are when they hire you, and then they give you an ID badge so you can access employee-only rooms in the building.</blockquote>
+<br>
 In this analogy, verifying you are who you say you are symbolises entering a username and password into a login form. The ID badge granted to you is the token; only you have this token, and you show it to the server every time you want to make a request to a protected resource.
 <br><br>
 One of the most common types of tokens are called <em>JSON Web Token's</em>, a.k.a JWT's.
