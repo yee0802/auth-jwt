@@ -92,7 +92,7 @@ The key things to remember are:
 
 ## Notes
 
-The documentation is quite difficult to read, especially as a begginer. Throw away any expectations of understanding how the token is generated or what hashing algorithms do; the purpose of this exercise is to understand how to use the `jsonwebtoken` library to create, verify and expire tokens.
+The documentation is quite difficult to read, especially as a beginner. Throw away any expectations of understanding how the token is generated or what hashing algorithms do; the purpose of this exercise is to understand how to use the `jsonwebtoken` library to create, verify and expire tokens.
 
 Nobody will expect a junior developer to build an authentication system, all you need to know is how to work with one that already exists.
 
