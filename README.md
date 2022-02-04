@@ -87,6 +87,7 @@ The key things to remember are:
 1. Fork this repository and clone the fork to your machine.
 2. Run `npm ci` to install project dependencies.
 3. Implement each of the empty functions inside `src/token.js`.
+    - There are links to the relevant sections of documentation in the function comments, try to examine the example code if the descriptions are too difficult to grasp.
 4. Run `npx jasmine` to test your code. Feel free to look at the test suite inside `spec/token.spec.js`, but don't change anything in there.
 
 ## Notes
