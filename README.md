@@ -39,7 +39,30 @@ The header usually contains two properties: the type of token (JWT) and the sign
 }
 ```
 
-That is then Base64 Encoded into a string (`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`) and forms the first part of the token.
+That is then Base64 encoded into a string (`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`) and forms the first part of the token.
 
-###
+### Payload
 
+The payload usually contains information about an entity that is required for the app to function; for example, user identification data.
+```json
+{
+    "id": 13,
+    "username": "nathank"
+}
+```
+
+That is then Base64 encoded into a string (`eyJpZCI6MTMsInVzZXJuYW1lIjoibmF0aGFuayJ9`) and forms the second part of the token.
+
+### Signature
+
+The signature is the result of a hashing function that takes in 2 parameters: the encoded header and payload separated by a dot, and a "secret phrase" - the secret is just a string of text that only the server knows, kind of like a password.
+
+A signature might look something like this: `TSh7SwNomgPOcdK9CLIhWT2m_UVay_RzNLrsu9gCwl0`
+
+So the end result, our JSON Web Token, looks like this: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsInVzZXJuYW1lIjoibmF0aGFuayJ9.TSh7SwNomgPOcdK9CLIhWT2m_UVay_RzNLrsu9gCwl0`
+
+Notice the dots separating each section! `Header.Payload.Signature`
+
+## Breathe!
+
+You don't need to concern yourself with the exact methods for creating a JWT or hashing a signature, there are vetted libraries to take care of this process for us.
