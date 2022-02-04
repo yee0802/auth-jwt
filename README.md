@@ -27,7 +27,7 @@ In this analogy, verifying you are who you say you are symbolises entering a use
 <br><br>
 One of the most common types of tokens are called <em>JSON Web Token's</em>, a.k.a JWT's.
 <br><br>
-A JWT is comprised of 3 separate pieces of JSON, each of them encoded and placed into a string separated by dots.
+A JWT is comprised of 2 separate pieces of JSON and a signature hash, each of them encoded and placed into a string separated by dots.
 <br><br>
 The final token will have a structure that looks like <code>xxxxx.yyyyy.zzzzz</code>
 <br><br>
