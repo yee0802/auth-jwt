@@ -15,9 +15,9 @@
   },
   "homepage": "https://github.com/boolean-uk/auth-jwt#readme",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
-    "jasmine": "^4.6.0"
+    "jasmine": "^5.1.0"
   }
 }
